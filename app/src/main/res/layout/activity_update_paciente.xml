@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UpdatePacienteActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="410dp"
+        android:layout_height="459dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1">
+
+
+            <TextView
+                android:id="@+id/Titulo_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:text="Datos personales"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/titulo_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="430dp"
+                android:text="Actualizar datos"
+                android:textSize="25dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="104dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="92dp"
+                android:text="Cedula:"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/apellido_actualizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="188dp"
+                android:layout_marginEnd="24dp"
+
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tipo_sangre_actualizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="280dp"
+
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.456"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/estado_civil_actualizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="324dp"
+
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cedula_actualizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="24dp"
+
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="104dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="276dp"
+                android:text="Tipo de sangre:"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="104dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="320dp"
+                android:text="Estado civil:"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="104dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="364dp"
+                android:text="Domicilio:"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Estado_civil"
+                android:layout_width="99dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="500dp"
+                android:text="Estado civil"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toStartOf="@+id/estado_civil_spact"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/telefono1_actualizar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="752dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints="Telefono 1"
+                android:hint="Telefono 1"
+                android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/distrito_txt"
+                android:layout_width="99dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="652dp"
+                android:text="Distrito"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toStartOf="@+id/distrito_spact"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/distrito_spact"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="652dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/estado_civil_spact"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="499dp"
+                android:entries="@array/Estado_Civil"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/Estado_civil"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/canton_spact"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="600dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/canton_txt"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/telefono3_actualizar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="872dp"
+                android:layout_marginEnd="24dp"
+
+                android:autofillHints="Telefono 3"
+                android:hint="Telefono 3"
+                android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/provincia_spact"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="548dp"
+                android:entries="@array/Provincias"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toEndOf="@+id/provincia_txt"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/senna_actualizar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="688dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints="Seña"
+                android:hint="Seña"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/provincia_txt"
+                android:layout_width="99dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="548dp"
+                android:text="Provincia"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toStartOf="@+id/provincia_spact"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/canton_txt"
+                android:layout_width="99dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="600dp"
+                android:text="Canton"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toStartOf="@+id/canton_spact"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/telefono2_actualizar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="812dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints="Telefono 2"
+                android:hint="Telefono 2"
+                android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/direccionactualizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="368dp"
+
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="104dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="140dp"
+                android:text="Nombre:"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="104dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="232dp"
+                android:text="Edad:"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/edad_paciente_actualizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="236dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints="Edad"
+
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/nombrepciente_acttualizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="144dp"
+                android:layout_marginEnd="24dp"
+
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.993"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="104dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="188dp"
+                android:text="Apellido:"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

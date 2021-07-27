@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Proyecto3</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_cedula">Número de cedula</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="error_invalid_user_id">Número de cedula inválido</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_server">Error en el servidor</string>
+    <string name="error_incorrect_user_id">Número de cedula no registrado</string>
+    <string name="error_network">Conexión de red no disponible</string>
+    <string name="error_invalid_password">Contraseña inválida</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="action_registrar">"Registrar"</string>
+    <string name="nombre_paciente">"Nombre"</string>
+    <string name="apellido_paciente">"Apellido"</string>
+
+    <string-array name="Provincias">
+        <item>San Jose</item>
+        <item>Alajuela</item>
+        <item>Cartago</item>
+        <item>Heredia</item>
+        <item>Guanacaste</item>
+        <item>Puntarenas</item>
+        <item>Limón</item>
+    </string-array>
+
+    <string-array name="Estado_Civil">
+        <item>Soltero/a</item>
+        <item>Casado/a</item>
+        <item>Unión libre</item>
+        <item>Separado/a</item>
+        <item>Divorciado/a</item>
+        <item>Viudo/a</item>
+    </string-array>
+
+    <string-array name="Tipo_sangre">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+
+</resources>

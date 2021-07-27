@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".Activities.VerCitasActivity">
+
+    <TextView
+        android:id="@+id/titulo_citas"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Citas"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/citas_aviso"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="No hay registros para este usuario"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textSize="30dp"
+        android:translationY="230dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclercitasid"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
